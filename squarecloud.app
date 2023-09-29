@@ -1,0 +1,5 @@
+DISPLAY_NAME=Vigia
+DESCRIPTION=Vigia.
+MAIN=./src/index.js
+MEMORY=1024
+VERSION=recommended

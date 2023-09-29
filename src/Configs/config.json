@@ -1,0 +1,18 @@
+{
+    "color": "#196ef7",
+    "color-criar-embed": [
+        { "name": "Neutro", "color": "#36393F" },
+        { "name": "Branco", "color": "#ffffff" },
+        { "name": "Azul Clássico", "color": "#3186c5" },
+        { "name": "Azul Discord", "color": "#5159da" },
+        { "name": "Azul Escuro", "color": "#206694" },
+        { "name": "Verde Clássico", "color": "#2ecc70" },
+        { "name": "Verde Discord", "color": "#50d57d" },
+        { "name": "Verde Escuro", "color": "#1f8b4c" },
+        { "name": "Vermelho Clássico", "color": "#e74d3c" },
+        { "name": "Vermelho Discord", "color": "#ed4245" },
+        { "name": "Vermelho Escuro", "color": "#992e22" },
+        { "name": "Laranja Clássico", "color": "#e67e22" },
+        { "name": "Roxo Clássico", "color": "#9c59b6" }
+    ]
+}
