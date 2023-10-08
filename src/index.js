@@ -77,3 +77,4 @@ const db = { guilds }
 const config = require(`./Configs/config.json`)
 const jsons = { config } 
 module.exports = { client, jsons, db}
+

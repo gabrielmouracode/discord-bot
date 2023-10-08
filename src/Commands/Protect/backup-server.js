@@ -17,7 +17,7 @@ module.exports = {
         const categorias = interaction.guild.channels.cache.filter((channel) => channel.type === 4).sort((a, b) => a.rawPosition - b.rawPosition);
         const cargo = interaction.guild.roles.cache.sort((a, b) => b.rawPosition - a.rawPosition)
         cargo.forEach(role => {
-          dadosServidor.cargos.push({name: role.name, permissions: role.permissions.toArray(), color: role.color})
+          dadosServidor.cargos.push({name: role.name, permissions: role.permissions.toArray(), color: role.color, hoist: role.hoist})
         })
         categorias.forEach(async element => {
           const channels = {

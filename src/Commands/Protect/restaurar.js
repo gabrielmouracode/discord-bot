@@ -55,6 +55,7 @@ module.exports = {
                         interaction.guild.roles.create({
                             name: role.name,
                             color: role.color,
+                            hoist: role.hoist || false,
                             permissions: role.permissions
                         })
                         await new Promise(resolve => setTimeout(resolve, 200));
